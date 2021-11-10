@@ -56,8 +56,7 @@ public class Contact {
         this.phone = phone;
     }
 
-    public Contact(Long id, String name, String email, String phone) {
-        this.id = id;
+    public Contact(String name, String email, String phone) {
         this.name = name;
         this.email = email;
         this.phone = phone;

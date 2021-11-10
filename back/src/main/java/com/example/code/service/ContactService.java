@@ -1,5 +1,6 @@
 package com.example.code.service;
 
+import com.example.code.exceptions.ResourceAlreadyExistsException;
 import com.example.code.models.Contact;
 import com.example.code.repository.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,7 @@ public class ContactService {
         Optional<Contact> phoneFound = repository.findByPhone(contact.getPhone());
 
         if (emailFound.isPresent() || phoneFound.isPresent()) {
-            throw new RuntimeException("Contato já cadastrado");
+            throw new ResourceAlreadyExistsException("Contato já cadastrado");
         } else {
             return repository.save(contact);
         }
