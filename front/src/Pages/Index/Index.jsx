@@ -8,9 +8,9 @@ export default function Index() {
         <StyledH2>O que deseja fazer?</StyledH2>
         <Options>
             <Link to='/cadastro'>Cadastrar contato</Link>
-            <p>Opçãozinha 2</p>
-            <p>Opçãozinha 3</p>
-            <p>Opçãozinha 4</p>
+            <Link to='/listar'>Listar contatos</Link>
+            <Link to='/delete'>Deletar contato</Link>
+            <Link to='/editar'>Editar contatos</Link>
         </Options>
         </>
     )

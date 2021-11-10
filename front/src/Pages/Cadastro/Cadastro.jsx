@@ -24,7 +24,6 @@ export default function Cadastro(props) {
             '/contatos',
             cadastro
         )
-        console.log(response.status);
         if (response.status === 201) {
             alert("Contato cadastrado com sucesso!")
         } else {

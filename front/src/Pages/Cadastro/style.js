@@ -4,7 +4,6 @@ export const Form = styled.form `
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    /* background-color: aqua; */
     margin: auto;
     margin-top: 3%;
 `
