@@ -63,7 +63,7 @@ export default function Cadastro(props) {
                 />
             </Label>
 
-            <Button type="submit" value="Cadastrar" />
+            <Button id="cadastrar" type="submit" value="Cadastrar" />
         </Form>
     )
 }
