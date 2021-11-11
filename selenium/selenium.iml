@@ -69,5 +69,6 @@
     <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-transport:3.2.11" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna:5.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.brotli:dec:0.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.21.0" level="project" />
   </component>
 </module>

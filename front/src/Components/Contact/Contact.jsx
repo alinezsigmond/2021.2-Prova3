@@ -4,10 +4,10 @@ export default function Contact(props) {
 
     return(
         <Contato>
-            <Id>ID: {props.id}</Id>
-            <Name>Nome: {props.name}</Name>
-            <Info>Email: {props.email}</Info>
-            <Info>Telefone: {props.phone}</Info>
+            <Id name='id'>ID: {props.id}</Id>
+            <Name name='nome'>Nome: {props.name}</Name>
+            <Info name='email'>Email: {props.email}</Info>
+            <Info name='phone'>Telefone: {props.phone}</Info>
         </Contato>
     )
 }
